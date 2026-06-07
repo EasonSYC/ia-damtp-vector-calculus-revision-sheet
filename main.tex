@@ -48,7 +48,7 @@ Start proof from boxed terms.
 \[
     \begin{aligned}
         \vb{t} &= \vb{x}' && \text{Tangent Vector} \\
-        \vb{n} &= \frac{1}{\abs{\vb{x}''}} \vb{x}'' && \text{Principle Normal Vector} \\
+        \vb{n} &= \frac{1}{\abs{\vb{x}''}} \vb{x}'' && \text{Principal Normal Vector} \\
         \vb{b} &= \vb{t} \cross \vb{n} && \text{Binormal Vector}
     \end{aligned}
     \qq{\qq{\qand}}
@@ -165,7 +165,7 @@ By definition,
     \boxed{\vb{t}} = \vb{x}' = \boxed{\frac{\dot{\vb{x}}}{\abs{\dot{\vb{x}}}}.}
 \]
 
-\subsection*{Principle Normal Vector}
+\subsection*{Principal Normal Vector}
 
 By definition, \(\vb{n} = \flatfrac{\vb{t}'}{\abs{\vb{t}'}}\) and we have \(\vb{t}' = \flatfrac{\dot{\vb{t}}}{\abs{\dot{\vb{x}}}}\).
 
@@ -219,7 +219,7 @@ Hence,
 \[
     \dot{\vb{x}} \cross \ddot{\vb{x}} = \abs{\dot{\vb{x}}}^3 \kappa \vb{b}
 \]
-and we only need to find the component of \(\dddot{\vb{x}}\) parallel to \(\vb{b}\), which is only possible by differentiating \(\vb{n}\). By Frenet-Serret Equations,
+and we only need to find the component of \(\dddot{\vb{x}}\) parallel to \(\vb{b}\), which is only possible by differentiating \(\vb{n}\). By Frenet--Serret Equations,
 \[
     \dot{\vb{n}} = \abs{\dot{\vb{x}}} \vb{n}' = \abs{\dot{\vb{x}}} \pqty{- \kappa \vb{t} + \tau \vb{b}}
 \]
