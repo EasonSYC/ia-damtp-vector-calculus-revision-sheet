@@ -1,5 +1,5 @@
-# latex-template
+# ia-damtp-vector-calculus-revision-sheet
 
-[![LaTeX Compile PDF](https://github.com/EasonSYC/latex-template/actions/workflows/compile-pdf.yml/badge.svg)](https://github.com/EasonSYC/latex-template/actions/workflows/compile-pdf.yml)
+[![LaTeX Compile PDF](https://github.com/EasonSYC/ia-damtp-vector-calculus-revision-sheet/actions/workflows/compile-pdf.yml/badge.svg)](https://github.com/EasonSYC/ia-damtp-vector-calculus-revision-sheet/actions/workflows/compile-pdf.yml)
 
-Template for using my LaTeX Style File.
+Revision sheet I created for IA Vector Calculus course at Cambridge.
